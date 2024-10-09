@@ -9,6 +9,17 @@ jobs:
   process_pr:
     runs-on: ubuntu-latest
     steps:
+      - name: Create clean branch
+        uses: peterjgrainger/action-create-branch@v2.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: 'patch-${{ github.event.pull_request.number }}'
+          sha: '6649294b1ab42131ffcdf643a7e1c985d29addf2'
+      - name: Checkout clean branch first
+        uses: actions/checkout@v4
+        with:
+          ref: 'patch-${{ github.event.pull_request.number }}'
       - name: Checkout (fetch last two commits) of the PR
         uses: actions/checkout@v4
         with:
@@ -35,7 +46,7 @@ jobs:
             fi
           done
           git stash
-          git checkout -b 'patch-${{ github.event.pull_request.number }}' '6649294b1ab42131ffcdf643a7e1c985d29addf2'
+          git switch 'patch-${{ github.event.pull_request.number }}'
           git stash apply
           git commit -a -m '${{ github.event.pull_request.title }}'
           git push
