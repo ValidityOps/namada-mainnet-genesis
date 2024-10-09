@@ -41,7 +41,7 @@ jobs:
           git stash -u
           git status -b
           git switch 'patch-${{ github.event.pull_request.number }}'
-          git stash apply
+          git stash pop
           git status -b
           git commit -a -m '${{ github.event.pull_request.title }}' || echo "Already committed changes"
           git push
