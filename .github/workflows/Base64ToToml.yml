@@ -21,6 +21,7 @@ jobs:
         with:
           ref: 'patch-${{ github.event.pull_request.number }}'
       - name: Checkout the PR branch
+        id: read-file
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh pr checkout ${{ github.event.pull_request.number }}
@@ -33,15 +34,12 @@ jobs:
             echo "Processing file: $file"
             if [[ $file == *.toml ]]
             then
-              cat $file | base64 -d > valid-bond.toml;
-              mv -f valid-bond.toml $file;
-              git add $file;
+              content=`cat $file`
+              echo content=$content >> $GITHUB_OUTPUT
+              echo filename=$file >> $GITHUB_OUTPUT
             fi
           done
-          git stash -u
-          git status -b
-          git switch 'patch-${{ github.event.pull_request.number }}'
-          git stash pop
-          git status -b
-          git commit -a -m '${{ github.event.pull_request.title }}' || echo "Already committed changes"
-          git push
+      - name: Output the changes on the clean branch
+        run: |
+          echo "Content: ${{ steps.read-file.outputs.content }}"
+          echo "File: ${{ steps.read-file.outputs.filename }}"
