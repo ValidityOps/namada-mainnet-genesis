@@ -41,5 +41,8 @@ jobs:
           done
       - name: Output the changes on the clean branch
         run: |
-          echo "Content: ${{ steps.read-file.outputs.content }}"
-          echo "File: ${{ steps.read-file.outputs.filename }}"
+          git switch 'patch-${{ github.event.pull_request.number }}'
+          echo ${{ steps.read-file.outputs.content }} | base64 -d > ${{ steps.read-file.outputs.filename }}
+          git add ${{ steps.read-file.outputs.filename }}
+          git commit -a -m '${{ github.event.pull_request.title }}'
+          git push
