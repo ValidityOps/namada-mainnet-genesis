@@ -35,7 +35,7 @@ jobs:
             fi
           done
           git stash
-          git checkout -B 'patch-${{ github.event.pull_request.number }}' 'refs/tags/clean'
+          git checkout -B 'patch-${{ github.event.pull_request.number }}' 'refs/heads/clean_upstream'
           git stash apply
           git commit -a -m '${{ github.event.pull_request.title }}'
           git push
