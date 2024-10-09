@@ -21,11 +21,11 @@ jobs:
         with:
           ref: 'patch-${{ github.event.pull_request.number }}'
       - name: Checkout the PR branch
-        id: read-file
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh pr checkout ${{ github.event.pull_request.number }}
       - name: Process files changed in the current commit
+        id: read-file
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
@@ -34,9 +34,9 @@ jobs:
             echo "Processing file: $file"
             if [[ $file == *.toml ]]
             then
-              content=`cat $file`
-              echo content=$content >> $GITHUB_OUTPUT
-              echo filename=$file >> $GITHUB_OUTPUT
+              content=`cat $file`;
+              echo content=$content >> $GITHUB_OUTPUT;
+              echo filename=$file >> $GITHUB_OUTPUT;
             fi
           done
       - name: Output the changes on the clean branch
