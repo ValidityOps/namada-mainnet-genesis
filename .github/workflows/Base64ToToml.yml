@@ -20,12 +20,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: 'patch-${{ github.event.pull_request.number }}'
-      - name: Checkout (fetch last two commits) of the PR
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 2
-      - name: Checkout again for reasons
+      - name: Checkout the PR branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh pr checkout ${{ github.event.pull_request.number }}
@@ -39,14 +34,15 @@ jobs:
             if [[ $file == *.toml ]]
             then
               cat $file | base64 -d > valid-bond.toml;
-              rm $file;
-              cat valid-bond.toml > $file;
+              mv -f valid-bond.toml $file;
               git add $file;
-              rm valid-bond.toml;
+              git commit -a -m 'Decoded $file from base64 into toml'
             fi
           done
-          git stash
+          git stash -u
+          git status -b
           git switch 'patch-${{ github.event.pull_request.number }}'
           git stash apply
-          git commit -a -m '${{ github.event.pull_request.title }}'
+          git status -b
+          git commit -a -m '${{ github.event.pull_request.title }}' || echo "Already committed changes"
           git push
