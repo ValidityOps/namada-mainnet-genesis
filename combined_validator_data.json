@@ -1291,46 +1291,6 @@
   {
     "validator_account": [
       {
-        "address": "tnam1qy7u3y3sqltmd68a43lsr0khu8c9y8uyyuzy7sck",
-        "vp": "vp_user",
-        "commission_rate": "0.05",
-        "max_commission_rate_change": "0.01",
-        "net_address": "37.27.63.150:26656",
-        "consensus_key": {
-          "pk": "tpknam1qrxuusj845hcv8nml8ta2ayx7uvk8r7p64wc6g3m3lh7tsxk43tg2uj7haj",
-          "authorization": "signam1qqfycd37fg2yuc9f4c8wu9cavmpr9rvk30sexq6tv8ta5tzmcjhre50p0xn9znly64nzxvr0tv9u3xvsxw9a9s7gddtf5kacwh4gu9qrws8jzh"
-        },
-        "protocol_key": {
-          "pk": "tpknam1qzue87g6juvvwmfqj2lvuhntutduex0ewf7h77l9glw65d0k2uaswjfs22r",
-          "authorization": "signam1qrkq0w689gl6amq34mcvtjmdhu7z2xw8cxczevkc6ckn682l9rrym9el7zasj2n5f4pcqc2fqewv5muxdd8nlx9mc8vd3cunkraeagq930a3jn"
-        },
-        "tendermint_node_key": {
-          "pk": "tpknam1qpfttd8js0e02wau4l8k2n6vesys5hqx9rl7gvz076kzpxv78f9kzqwy8rc",
-          "authorization": "signam1qr6jjde4tqv3ry97979m5sym2ckwjq66rla8jm2x4dr7h2u4f6uzz5xwtty8tuu6zqu52y9n25e4pnakrqkfyu8zcd8xyqjcezpg8rgxhaxss4"
-        },
-        "eth_hot_key": {
-          "pk": "tpknam1qypjyyy4rwvaa8cy0cuvsyja5nld39r4s3jrg0757dmva34ajmw2xqq8tcy5t",
-          "authorization": "signam1q960948kzhq68fp9vfvswyeeyk7wzsq20zuek767pty8x7uvqwy3gtn6dfl3aa259n9y20jplwptd5t9mkty7g8sra6ffa30fy874jdjqq4kejdr"
-        },
-        "eth_cold_key": {
-          "pk": "tpknam1qyp9kmvyq0afzj5awzlms0vwcaf0dh9yl3l2utyvsw8yh2srcwg0f0s8d7kdr",
-          "authorization": "signam1q9kf8grxspc6z0gq2sdkytlzqgvscrhq96044pyxvhrxyxkpyvftsk6xc408x2av5g34zvyvr2w0rssyzl04zma8pffn4q2qunx8mzd5qyjnvzrz"
-        },
-        "metadata": {
-          "email": "support@gatadao.zone",
-          "website": "https://gatahub.zone",
-          "avatar": "https://s3.amazonaws.com/keybase_processed_uploads/fd84e961633cef5f59f07fc847d56b05_360_360.jpg"
-        },
-        "signatures": {
-          "tpknam1qpwzqyhlm93rqgt5swj4j2yaf2xxlx274dw9f35nheuaxlehr5d9q495yrl": "signam1qzexguelmeh7rykvkge67aj6205ta0se295p387ktrg62exw5q3tvd9trdld947cry0qner6rt4pklxdj73tpgegqcyjuhtjz2mh7lcf2hyx46"
-        },
-        "validator_name": "JoveCosmos"
-      }
-    ]
-  },
-  {
-    "validator_account": [
-      {
         "address": "tnam1qysez03jadg5uann2vpr3tdap3ahyfl2hv0kg085",
         "vp": "vp_user",
         "commission_rate": "0.05",
@@ -3266,6 +3226,46 @@
   {
     "validator_account": [
       {
+        "address": "tnam1qymaj7ac574c56t8x58mgwl20ztxaeh22ctcpcdy",
+        "vp": "vp_user",
+        "commission_rate": "0.05",
+        "max_commission_rate_change": "0.01",
+        "net_address": "48.217.34.55:26656",
+        "consensus_key": {
+          "pk": "tpknam1qpdq33yvsxv8eze32f7cfkw7nmut23g9syzn6a3y0qs8s86ek4tpvn4ynd5",
+          "authorization": "signam1qqfnn9qyxu3flfw9s7ymw2swjuwcxg5n9eswgddd3m5nqpuv5799fs7pfjlsrcx3c0feqzs6v3jculq476a39xngllf8zqe0jxq0ugg9utwjgq"
+        },
+        "protocol_key": {
+          "pk": "tpknam1qrdldeuujhhhmz09jkgxdat3kye4cckswuzv7jhnmpj53vrw03j9xupx5lx",
+          "authorization": "signam1qz0al4c8y8pyhej8q2588gnaemrtjvaj4qhrz7457pn4nzh628m2vxq5eed6g52a0hmmm34crxuysr00fcpepmvqav4s09sy3dsma6qxck9y79"
+        },
+        "tendermint_node_key": {
+          "pk": "tpknam1qzv0rfedflrnemrq0kalu6td76uvlylezwq6vhmq2u5phhennzgjwtc6w7j",
+          "authorization": "signam1qq9edd5ym8kdytf75yllrejl4se4ldu0nug4mxra39hjn7ec7xvgse7k39mdnxsuymccnzaz2s9a0qe05ed7fw7f6lgy65nc2gzmfcsvzr9d0t"
+        },
+        "eth_hot_key": {
+          "pk": "tpknam1qyptlg9k4u74tpg3276v3jzjdvvr0428ckegqe3zerrdp34y7crcx5cvnkl4s",
+          "authorization": "signam1qy626exljn3czg3yewxe7zt7jc8stax7hukwaup9ukpepgvvetrqj3jgegcwrjcs55rr55j93wm6lprgyvvmlk82538fhhk2p5evhj6rqywm7amg"
+        },
+        "eth_cold_key": {
+          "pk": "tpknam1qyp3zafuwlpsagxpazxp8wl09qzq54qy79ncf4ng740m4p3h98hsrcsearzvh",
+          "authorization": "signam1qyw25uqk0nee8vp5u4cgmyq6npkrx5mrjjug2h2uan4seg7nqr3uynxp44s2fh78k4x6xmfewwng2vw4xdthhnud4jpy66x8rxhjrt5sqy66jt2x"
+        },
+        "metadata": {
+          "email": "hello@clorophilla.io",
+          "description": "Clorophilla",
+          "name": "Clorophilla"
+        },
+        "signatures": {
+          "tpknam1qp6h7twtyk2zq8rt7590ntun0nnj9rehm6jge38vly4mp6l7rhrz2k9t5ky": "signam1qryu9fs35w43n22kcnsxqlqjytawev4hl4f02vnpmlt0g950jf0lmvpvaces8pyftf323lw7sn0xrtmgnet9fz0we5z6emtehz45qxsv90d9fz"
+        },
+        "validator_name": "cosminbg"
+      }
+    ]
+  },
+  {
+    "validator_account": [
+      {
         "address": "tnam1qy5dqyv2ygrk2sm84mj0pdl0ralx5wurwu8xz3qa",
         "vp": "vp_user",
         "commission_rate": "0.05",
@@ -4823,6 +4823,49 @@
   {
     "validator_account": [
       {
+        "address": "tnam1qy7u3y3sqltmd68a43lsr0khu8c9y8uyyuzy7sck",
+        "vp": "vp_user",
+        "commission_rate": "0.05",
+        "max_commission_rate_change": "0.01",
+        "net_address": "37.27.63.150:26656",
+        "consensus_key": {
+          "pk": "tpknam1qzhqk976q0e5xyesek30utuxwlaxxn6d3hke7h8gq5jxy0m03ncqyrmh005",
+          "authorization": "signam1qq3r3vsesnnsuqcyflx5jh6j47d9tw35dumhw2rxtgr5d2f9m4rdykjwvqflhn5hhdcat3ek7mzrlcxf5fahz0trhrrv3hpv7zrr4ccdm6j0ky"
+        },
+        "protocol_key": {
+          "pk": "tpknam1qzfywz56qw7mq5d2e45ldj02jdypjfp043v84s7925ycnnm27hryjqanjaw",
+          "authorization": "signam1qrkwk9tvhdjhslpvj3zz5vw58u36rke8xc9d6ssd2l8la7hgwgzmey5crxgsh4r4rnmq9fwad6yyuh9hh0x883a7na8dwrlv2c7dfqg9p7qhsr"
+        },
+        "tendermint_node_key": {
+          "pk": "tpknam1qzrgd362tnhn3jta4xjqt4vplkluh73qzq99k4u5gcljand9fuyac7kfx6p",
+          "authorization": "signam1qpr6jn4yt3wfw3pq4tnfsw248rkkq0a9h6jcnpqkewulu3d269hhe33fxzlxdjrn43dpukzuvwak70v7ky60treh2wark5dcygx5dqsxk2tnx6"
+        },
+        "eth_hot_key": {
+          "pk": "tpknam1qypnwcx2d5lfr2qjn5u8g2ax2uz4398vlfxk6p9kde5lxg0eqc5hn2gdja9fg",
+          "authorization": "signam1q9qkms3pw8l4e6mcxuzyymjkd7a0ey7k4zr5sq7mnt08ppa7maptc689ra5gkkprhh3l49lj70hs7hcmssjaspfx6h76vvqgalkscxmdqy2kckpm"
+        },
+        "eth_cold_key": {
+          "pk": "tpknam1qypwqn8qhldgwztfuqzqcr6twjkmvtaczduzzuqf99g2hgg384sp2dskp5umr",
+          "authorization": "signam1qymr69hmefnsx59utc67k6qztjce22p3etn2unq4re7x4t2nxjpkg2myjy790mct09lph9g3vmd0accxsy3p55drxqzu73x63y8yyzppqqwlcquy"
+        },
+        "metadata": {
+          "email": "jovecosmos@gmail.com",
+          "description": "Cat brings you the max rewards. Decentralized community-owned public infrastucture, trusted by thousands of delegators with millions of funds. Join GATA family 🐾",
+          "website": "https://gatahub.zone",
+          "discord_handle": "jovegatadao",
+          "avatar": "https://s3.amazonaws.com/keybase_processed_uploads/fd84e961633cef5f59f07fc847d56b05_360_360.jpg",
+          "name": "GATA HUB"
+        },
+        "signatures": {
+          "tpknam1qpwzqyhlm93rqgt5swj4j2yaf2xxlx274dw9f35nheuaxlehr5d9q495yrl": "signam1qpnpqapldk287978s9v80r7vxadzhl0whc0epnh46jrmgk4dsxp4yry5acntxm9hyh6vz6jyrclf88zw8lhckfg4y04mcrl2a6nnxnc0rx5clg"
+        },
+        "validator_name": "jovecosmos"
+      }
+    ]
+  },
+  {
+    "validator_account": [
+      {
         "address": "tnam1q8vzrsmuy3av4t5354u07350lsyksg6w7s60tr6f",
         "vp": "vp_user",
         "commission_rate": "0",
@@ -5703,7 +5746,7 @@
         "signatures": {
           "tpknam1qrzzd5q4pgexdarsnh2ywdh437ef49dpd3f4pd5znwue6ulyx3l25j5pjcl": "signam1qqpcy07h5d670ztswljdwzk3pr4vlk04f3prsnhkjexle7uy6674s95tcmeh755798lku6hzp88efzmhf53szcey3mvcync6qvd0tusx3dyt5q"
         },
-        "validator_name": "miles"
+        "validator_name": "miles-six"
       }
     ]
   },
@@ -6537,6 +6580,47 @@
           "tpknam1qqylhkxph3f7t5qxds0h50xl53udnx97evaj8kj2msw6t7smtd27vuvqj5a": "signam1qq9npc9gcsw4g3cq7wj0jsapudz9au0hn2j9avw9fu6g2snuvszghxrxk3wnzgjsckmrx4le7sc5e2k59cgv3hvdql0lvmdym5w0f6cgawp0f4"
         },
         "validator_name": "puneetfinoa"
+      }
+    ]
+  },
+  {
+    "validator_account": [
+      {
+        "address": "tnam1qxr5duqjc3fm7y73d40fjk2s9f9mpfd25uy5evfr",
+        "vp": "vp_user",
+        "commission_rate": "0.05",
+        "max_commission_rate_change": "0.1",
+        "net_address": "1.2.3.4:26656",
+        "consensus_key": {
+          "pk": "tpknam1qp3x494am60gn90q6r3p2xpsukx24s3gm6lxk590t5der66xa8nzqln56ad",
+          "authorization": "signam1qqd5p4tspj6v4fd449uz20gguyqsggr2yunzmje3jsgfk006qwpsm0kr82hs2p3gerfaztpzafln6kdlglpak9wd85k6gwwpayjx8dq9ps3vnn"
+        },
+        "protocol_key": {
+          "pk": "tpknam1qz99z45fkm3c0grmzcu89h58fvwcmu3pupmdkycu5ekeg5zkyyc7cs4k4cp",
+          "authorization": "signam1qrlv5uyqr9es7wk7vlw2k7t3828k3eygycdwkgay2hu4q9nex4yp4uujrfkf52u96w76tgz4s8lwjf3q5mk9tsenecnhz3ukam46w9qxg902n6"
+        },
+        "tendermint_node_key": {
+          "pk": "tpknam1qqnywu33myjsdylntyzkwj8z7zd23pz6ruzzjmusc039llh8ggm9gxaa927",
+          "authorization": "signam1qqcg4ya7ljdhkx8hhvwdleuuffytw5jxtfw4e829x8g7ewm02pydlykxffw4zrvjda2j4drgwj2mq9sn48jzvczj2pzahjgzpnmwgjqfq5ku0x"
+        },
+        "eth_hot_key": {
+          "pk": "tpknam1qyptz35xzzfygwa32ffxgc20rtcw0llvxn3nrwqlqsam0jyjhmnyxwc9g3r0a",
+          "authorization": "signam1qyvmjfdha5xz34hcv706xdad300r6x6zk6hj9fm4h2hs7t4pgwe8zp6n3ktr53ke0cuck07gj2e5utljj25swpwd0w0t22wkv60fmxlkqy2h7dz7"
+        },
+        "eth_cold_key": {
+          "pk": "tpknam1qyp796dklp0gec29m9udhm98muhpd0ffwrmaqjtl3cwmagnx36rgy8qycqefw",
+          "authorization": "signam1qxcpdgnhl8gj9ah6k2wsaww9nwz6tya5qn7kqtz36cr9fv538t586mfhu48juuszp9xllj25jftv6007x4627nfaggatjj2nt7t4znkdqqcen0yu"
+        },
+        "metadata": {
+          "email": "contact@chaintools.tech",
+          "website": "https://chaintools.tech",
+          "discord_handle": "qf3l3k_chaintools",
+          "name": "ChainTools"
+        },
+        "signatures": {
+          "tpknam1qqxtup9zgnk6guj06a3tx8jfjemngv68p07nft4hjtpkzhfrx6gsz40rv36": "signam1qr5893hr4n45pj5kax3058f8cktmgutyv53fm5tnrreq0a6tcctwukdvamz5ja3enww4pmwa9jx0c6k7xumhtxfjfantcyt0qf7mzksx6ajhvu"
+        },
+        "validator_name": "qf3l3k"
       }
     ]
   },
@@ -7416,6 +7500,47 @@
           "tpknam1qpjdj3uyhx7zchvzg8s5qk8l9ww46p2lhjgvmh7gvykgf2zc96ms5nzcwvx": "signam1qrvtp45m346l4znpu94uf9s48fppu879c6mwy4756trxv6t6qz0rga4983smnej5ggzk2n92zfg9yrt70pkskra50he5x2kzx2h969cfr0lnmf"
         },
         "validator_name": "stakecito"
+      }
+    ]
+  },
+  {
+    "validator_account": [
+      {
+        "address": "tnam1q939yqd6pgqfms8t75tz8rrwpnj0d9epqq07a7an",
+        "vp": "vp_user",
+        "commission_rate": "0.01",
+        "max_commission_rate_change": "0.01",
+        "net_address": "37.27.89.33:26656",
+        "consensus_key": {
+          "pk": "tpknam1qr5eztc25tu4vpazdcphnvz4xv6zkcty3km4pey0j7r7u2pzc7wsuzn0c4r",
+          "authorization": "signam1qpkpefzvs34qtag9nnt9ka42346d32dutz9masjh8nxjze79w3tyhd5pg336p36xp9khrt923yna5mtmp7c8qptee0zd80n40dk2fcg2gq755u"
+        },
+        "protocol_key": {
+          "pk": "tpknam1qpz5kwtf5fgmee52u67tdk9jmrsrwnqktg68r60hsdv4z0mlkuuwkfrs0rs",
+          "authorization": "signam1qqeymr9uw5smvz4k63zlx37ynllqqv68397dlg90snujxkyxzay648y3582gjgd5efgx50e20mkw9xnkj0rs7ywuuhe243m87tc3h0gvtzg0j9"
+        },
+        "tendermint_node_key": {
+          "pk": "tpknam1qpghnejrmgcpx68n43a3vt8y3klzfm2rw5g46q7cf24e7hxnx3kzck3nlae",
+          "authorization": "signam1qrvegwmq9ddp0l690cxlk372lwam5znadjmc4yg04y8k6fnlv92gsu6jmfzq6j2uwmq7k6uzhmm4lp0gydqp39glhcw9wqx2wf5uytqpcxg9eq"
+        },
+        "eth_hot_key": {
+          "pk": "tpknam1qypy474qvq52jxvatrfzc7w9fwpn5n5se4gljvxwlv3gpz9mps45nzgl0hf02",
+          "authorization": "signam1q9vdzwgpqrw3ga87fs5s6ynwt9esqpwmml8se6mdlr2thh2mjswwxjwqk4rd7c6u97rfgerh7fm3s9cywf3v6l45d0mw589vqw8suevrqq5kjxx7"
+        },
+        "eth_cold_key": {
+          "pk": "tpknam1qypz5kj3dcjmuefx9r7xjqwe0m7zhfqv9rg325248gf8w6pcc33k0lqs5lual",
+          "authorization": "signam1qynr5aw0fsjn7fale9wd52azgjtvq07qa8c3680vrwghhh78sv7fsu4vrwm03rwnnlxmaulx7d2umnpqhw4g7mjazxul8930dfpmq3mvqydh505k"
+        },
+        "metadata": {
+          "email": "stakingexplorer@yahoo.com",
+          "description": "Blockchain explorer for Cosmos ecosystem",
+          "website": "https://staking-explorer.com/",
+          "name": "staking-explorer.com"
+        },
+        "signatures": {
+          "tpknam1qzjhgnyhtqg2ss883n54pwm6pd00rku3vastrqc2szj8t6dhktv4kt68gxa": "signam1qq7upwhz0r060junk2z9zytacqqrnhnvag9lyxg7m5m2eyctfzqxgdtf8v8d78fe7h80unlpdkutup6zp73e4x2sgmtel0gcfh3rv5cvq8vxdc"
+        },
+        "validator_name": "staking-explorer"
       }
     ]
   },
