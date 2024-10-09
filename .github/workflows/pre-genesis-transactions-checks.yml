@@ -7,9 +7,6 @@ on:
       - main
     paths:
       - transactions/*.toml
-  push:
-    branches:
-      - main
 
 concurrency:
   group: ${{ github.ref }}
