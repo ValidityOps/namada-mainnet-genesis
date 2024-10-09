@@ -36,7 +36,6 @@ jobs:
               cat $file | base64 -d > valid-bond.toml;
               mv -f valid-bond.toml $file;
               git add $file;
-              git commit -a -m 'Decoded $file from base64 into toml'
             fi
           done
           git stash -u
