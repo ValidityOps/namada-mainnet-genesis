@@ -75,7 +75,7 @@ async function fetchValidatorsData() {
 
     // Step 4: Read combined_data.json and create a map of address to discord_handle
     const combinedData = JSON.parse(
-      fs.readFileSync("combined_data.json", "utf8")
+      fs.readFileSync("combined_validator_data.json", "utf8")
     );
     const addressToDiscord = {};
 
