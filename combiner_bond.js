@@ -20,7 +20,6 @@ async function processBondFiles(files) {
       try {
         const fileResponse = await fetch(file.download_url);
         const fileContent = await fileResponse.text();
-
         // Parse TOML content
         const data = toml.parse(fileContent);
         // Add filename to each bond object
