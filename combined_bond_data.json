@@ -54114,9 +54114,9 @@
   {
     "source": "tpknam1qpc4x5l9tvz84nnzfp028gjuas0h690n8p2r8tly53nqak8nxc6gkeafert",
     "validator": "tnam1qyx7d7vm30tgf3fj4awa60syk9rhcjv8uulhkpq5",
-    "amount": "10000",
+    "amount": "23300",
     "signatures": {
-      "tpknam1qpc4x5l9tvz84nnzfp028gjuas0h690n8p2r8tly53nqak8nxc6gkeafert": "signam1qpmsqw3kacks4rywpsmc5zvud5kpylj235p49tfq09d288n2043yh083gmua09n4qx6srnxrhazx8z8vkhejlh5wnm6dkpjlfx6xuyqpal664z"
+      "tpknam1qpc4x5l9tvz84nnzfp028gjuas0h690n8p2r8tly53nqak8nxc6gkeafert": "signam1qpgyzlkslnxsl8289mckptrpypvysu2gjq2uu3uh9yh6lpnu2qthc6m9ar3yar9xpzva9f09jkrffh42c8qu7vt9rhqr3c93xkal6aczth07ld"
     }
   },
   {
@@ -54234,9 +54234,9 @@
   {
     "source": "tpknam1qz6mn6dwv0vmcjaqrg8fsxprhmg7mrc888ueky94kx492zqfh43f5su7dx3",
     "validator": "tnam1q9vdxnkrqwnw5vrgfypqz6ndejp6sy2sfgc9pk5d",
-    "amount": "100",
+    "amount": "10000",
     "signatures": {
-      "tpknam1qz6mn6dwv0vmcjaqrg8fsxprhmg7mrc888ueky94kx492zqfh43f5su7dx3": "signam1qpfwruwcu090zyj9ua2pqgt7dztwr8guq8qplun46cgkz8rj8fqkwq4fl5a8ms8kfxvele32ttgztg357cuhstfd7fw2ljgu7y825vsrfzgmtg"
+      "tpknam1qz6mn6dwv0vmcjaqrg8fsxprhmg7mrc888ueky94kx492zqfh43f5su7dx3": "signam1qrheyl7hjthceccprd9lgmu2s30wmmjmzwyzn0ntq40x2p973ke6v4dsunzjgef698ggdy9vphy88kedreyq003psl947fl2r56ar2cv8rvr70"
     }
   },
   {
