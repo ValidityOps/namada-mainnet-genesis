@@ -9,17 +9,10 @@ jobs:
   process_pr:
     runs-on: ubuntu-latest
     steps:
-      - name: Create clean branch
-        uses: peterjgrainger/action-create-branch@v2.2.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          branch: 'patch-${{ github.event.pull_request.number }}'
-          sha: '6649294b1ab42131ffcdf643a7e1c985d29addf2'
       - name: Checkout clean branch first
         uses: actions/checkout@v4
         with:
-          ref: 'patch-${{ github.event.pull_request.number }}'
+          ref: 'patch-upstream'
       - name: Checkout the PR branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
