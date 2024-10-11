@@ -1,31 +1,39 @@
-name: Update Combined Data
+name: Update Validators From Anoma README
+
 on:
   schedule:
-    - cron: "*/15 * * * *"
-  workflow_dispatch:
+    - cron: "*/15 * * * *" # Run every 10 minutes
+  workflow_dispatch: # Allows manual trigger of the workflow
+
 permissions:
   contents: write
+
 jobs:
-  update-data:
+  update-validators-data:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          node-version-file: ".nvmrc"
+          node-version-file: ".nvmrc" # Ensure you have an .nvmrc file or specify a version here.
+
       - name: Install Dependencies
         run: npm install
-      - name: Run Script
-        run: node combiner_validator.js
+
+      - name: Run Validator Script
+        run: node fetchValidatorsData.js
+
       - name: Commit and Push Changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add combined_validator_data.json
-          git commit -m "Update combined_validator_data.json [skip ci]" || echo "No changes to commit"
+          git add validators_data.json
+          git commit -m "Update validators_data.json [skip ci]" || echo "No changes to commit"
           git push
