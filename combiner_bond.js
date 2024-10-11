@@ -23,6 +23,11 @@ async function processBondFiles(files) {
 
         // Parse TOML content
         const data = toml.parse(fileContent);
+        // Add filename to each bond object
+        return data.bond.map((bond) => ({
+          ...bond,
+          filename: file.name,
+        }));
         return data.bond;
       } catch (error) {
         console.error(`Error processing file ${file.name}:`, error);
@@ -45,7 +50,7 @@ async function fetchFiles() {
 
     // Step 3: Fetch and process all TOML files in parallel
     const bonds = await processBondFiles(bondFiles);
-    const bondArray = bonds.flatMap(x => x)
+    const bondArray = bonds.flatMap((x) => x);
 
     // Step 4: Write combined data to a JSON file
     fs.writeFileSync(
