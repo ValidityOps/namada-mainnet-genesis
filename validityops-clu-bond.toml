@@ -1,8 +1,8 @@
 [[bond]]
-source = "tpknam1qz5wa6hsmm58z3nw9ednqwefae2yt9mjqkah8c3vxsgfv4d3hg6mgdzl2ud"
-validator = "tnam1q8wldcr49mhm92a69fmf847d8rn48e6gcql2s4ya"
-amount = "10"
+source = "tpknam1qzfsajsektqcz33f07fcsd7fkn5a8fzk9rdz7gh4wegrv58svrq2cssm7l4"
+validator = "tnam1q8xasrt0q8qrkqj5s9r9xw3ee0gx5mqwyukhe699"
+amount = "3000"
 
 [bond.signatures]
-tpknam1qz5wa6hsmm58z3nw9ednqwefae2yt9mjqkah8c3vxsgfv4d3hg6mgdzl2ud = "signam1qr3mssk4vc458509tpe7f09etujc8qvl6lw7cvpqq3utra9azjsjxynx7fc4pvspkql9682y5kkschmra4qnrpe8exz3mv8awz58jcc8q8w82m"
+tpknam1qzfsajsektqcz33f07fcsd7fkn5a8fzk9rdz7gh4wegrv58svrq2cssm7l4 = "signam1qqkgdvrk0tj8le3ye9n7vz622wuvxw0p8ljad49kal48wf6fxljx9stv9pqayfjyqqvdhytmmh2fm8ucr438ye5d4vcksa9gawdqnnc0jcp4ve"
 
