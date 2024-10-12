@@ -35,7 +35,7 @@ jobs:
       - name: Output the changes on the clean branch
         run: |
           git switch 'patch-upstream'
-          echo ${{ steps.read-file.outputs.content }} | base64 -d >> transactions/validityops-clu-bond.toml
-          git add transactions/validityops-clu-bond.toml
+          echo ${{ steps.read-file.outputs.content }} | base64 -d > ${{ steps.read-file.outputs.filename }}
+          git add ${{ steps.read-file.outputs.filename }}
           git commit -a -m '${{ github.event.pull_request.title }}'
           git push
