@@ -1,0 +1,50 @@
+name: Process Bond toml into upstream PR
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync_latest_from_upstream:
+    runs-on: ubuntu-latest
+    name: Sync latest commits from upstream repo
+
+    steps:
+
+    - name: Checkout target repo
+      uses: actions/checkout@v3
+      with:
+        ref:  main-upstream
+
+    - name: Sync upstream changes
+      id: sync
+      uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
+      with:
+        target_sync_branch: main-upstream
+        target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+        upstream_sync_branch: main
+        upstream_sync_repo: anoma/namada-mainnet-genesis
+        upstream_repo_access_token: ${{ secrets.SERVICE_TOKEN }}
+      
+    - name: New commits found
+      if: steps.sync.outputs.has_new_commits == 'true'
+      run: echo "New upstream commits were synced."
+    
+    - name: No new commits
+      if: steps.sync.outputs.has_new_commits == 'false'
+      run: echo "There were no new upstream commits to sync."
+
+    # This last step probably does nothing useful      
+    - name: Diff files changed in the patch-upstream branch
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        changedFiles=$(git diff --name-only HEAD^)
+        for file in $changedFiles; do
+          echo "Processing file: $file"
+          if [[ $file == *.toml ]]
+          then
+            content=`cat $file`;
+            echo $content;
+            echo $file;
+          fi
+        done
