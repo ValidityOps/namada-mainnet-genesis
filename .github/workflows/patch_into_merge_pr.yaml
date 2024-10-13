@@ -55,6 +55,7 @@ jobs:
             cat $file >> transactions/validityops-clu-bond.toml
             git add transactions/validityops-clu-bond.toml
             git commit -m "Appended bond submission from $file into validityops-clu-bond.toml"
+            git push
           done
 
       - name: Create PR from Patch to Merge
