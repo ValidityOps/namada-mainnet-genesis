@@ -1,4 +1,4 @@
-name: Process Bond toml PR from Patch into Merge
+name: PR from Patch into Merge
 on:
   workflow_dispatch:
   push:
@@ -50,6 +50,8 @@ jobs:
       env:
         ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
       run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
         for file in ${ALL_CHANGED_FILES}; do
           echo "$file was changed >> appending to merge toml"
           cat $file >> transactions/validityops-clu-bond.toml
