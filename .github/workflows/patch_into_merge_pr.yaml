@@ -35,7 +35,18 @@ jobs:
     - name: No new commits
       if: steps.sync.outputs.has_new_commits == 'false'
       run: echo "There were no new upstream commits to sync."
-      
+
+    - name: Checkout target repo
+      uses: actions/checkout@v3
+      with:
+        ref:  merge-upstream
+
+    - name: Read latest consolidated bond toml
+      id: read-file
+      run: |
+        content=`cat transactions/validityops-clu-bond.toml`;
+        echo content=$content >> $GITHUB_OUTPUT;
+
     - name: Get files changed in this push event
       uses: actions/checkout@v4
       with:
@@ -52,6 +63,7 @@ jobs:
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
+        echo ${{ steps.read-file.outputs.content }} > transactions/validityops-clu-bond.toml
         for file in ${ALL_CHANGED_FILES}; do
           echo "$file was changed >> appending to merge toml"
           cat $file >> transactions/validityops-clu-bond.toml
@@ -63,7 +75,7 @@ jobs:
     - name: Create PR from Patch to Merge
       uses: devops-infra/action-pull-request@v0.5.5
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.SECRET_TOKEN }}
         source_branch: patch-upstream
         target_branch: merge-upstream
         body: "**Automated bond submission from validityops.com**"
