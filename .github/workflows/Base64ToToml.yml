@@ -30,6 +30,8 @@ jobs:
               content=`cat $file`;
               echo content=$content >> $GITHUB_OUTPUT;
               echo filename=$file >> $GITHUB_OUTPUT;
+              decoded='echo $content | base64 -d';
+              gh pr comment ${{ github.event.pull_request.number }} -b $decoded;
             fi
           done
       - name: Output the changes on the clean branch
@@ -39,3 +41,7 @@ jobs:
           git add ${{ steps.read-file.outputs.filename }}
           git commit -a -m '${{ github.event.pull_request.title }}'
           git push
+      # We append the decoded values to the output file if one already exists
+      # The Merge workflow is triggered by this push
+      # We aren't currently merging this PR as the content is base64 encoded
+      # Multiple submissions will result in new PRs following on from this one
