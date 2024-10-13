@@ -75,7 +75,7 @@ jobs:
     - name: Create PR from Patch to Merge
       uses: devops-infra/action-pull-request@v0.5.5
       with:
-        github_token: ${{ secrets.SECRET_TOKEN }}
+        github_token: ${{ secrets.SERVICE_TOKEN }}
         source_branch: patch-upstream
         target_branch: merge-upstream
         body: "**Automated bond submission from validityops.com**"
