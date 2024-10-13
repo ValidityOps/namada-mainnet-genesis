@@ -3,6 +3,9 @@ name: Check Pre Genesis Transactions 👨‍🔧
 on:
   merge_group:
   pull_request:
+    branches:
+      - patch-upstream
+      - merge-upstream
     paths:
       - transactions/*.toml
 
