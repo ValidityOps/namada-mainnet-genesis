@@ -14,3 +14,11 @@ amount = "24"
 [bond.signatures]
 tpknam1qr9snf7zhd9nhrc468y0ux2tz0swuxul3069q9gqf65392t0v4eywjnd497 = "signam1qzwkacwm7h76qalk7l8tnlnysqwj6tu7vtamavxlp58zmdq2pscdq7rpyr67e688npyckz3qp9gccww6kcrl3mgwtr84e9eacq363kcqe80c0q"
 
+[[bond]]
+source = "tpknam1qr9snf7zhd9nhrc468y0ux2tz0swuxul3069q9gqf65392t0v4eywjnd497"
+validator = "tnam1q8lhvxys53dlc8wzlg7dyqf9avd0vff6wvav4amt"
+amount = "120"
+
+[bond.signatures]
+tpknam1qr9snf7zhd9nhrc468y0ux2tz0swuxul3069q9gqf65392t0v4eywjnd497 = "signam1qqresftcp475tldra9ahsdw253rs93jxkmu0qr9ams62rsaqr4sv5auf9n68jrlclwqpep97sdfg35449x04qew7vzz8e8vajewam4s8kfke79"
+
