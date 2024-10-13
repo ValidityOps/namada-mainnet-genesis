@@ -38,30 +38,30 @@ jobs:
       
     - name: Get files changed in this push event
       uses: actions/checkout@v4
-        with:
-          ref: patch-upstream
-          fetch-depth: 2
+      with:
+        ref: patch-upstream
+        fetch-depth: 2
 
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v45
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v45
 
-      - name: List all changed files
-        env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: |
-          for file in ${ALL_CHANGED_FILES}; do
-            echo "$file was changed >> appending to merge toml"
-            cat $file >> transactions/validityops-clu-bond.toml
-            git add transactions/validityops-clu-bond.toml
-            git commit -m "Appended bond submission from $file into validityops-clu-bond.toml"
-            git push
-          done
+    - name: List all changed files
+      env:
+        ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+      run: |
+        for file in ${ALL_CHANGED_FILES}; do
+          echo "$file was changed >> appending to merge toml"
+          cat $file >> transactions/validityops-clu-bond.toml
+          git add transactions/validityops-clu-bond.toml
+          git commit -m "Appended bond submission from $file into validityops-clu-bond.toml"
+          git push
+        done
 
-      - name: Create PR from Patch to Merge
-          uses: devops-infra/action-pull-request@v0.5.5
-            with:
-              github_token: ${{ secrets.GITHUB_TOKEN }}
-              source_branch: patch-upstream
-              target_branch: merge-upstream
-              body: "**Automated bond submission from validityops.com**"
+    - name: Create PR from Patch to Merge
+      uses: devops-infra/action-pull-request@v0.5.5
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        source_branch: patch-upstream
+        target_branch: merge-upstream
+        body: "**Automated bond submission from validityops.com**"
