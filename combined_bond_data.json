@@ -693,6 +693,15 @@
     "filename": "clemensgg-bond.toml"
   },
   {
+    "source": "tpknam1qqnuu3qm70c056wkzvunfsxrt5jxlh8d57rm7v27q35c9t52a6ycg8f5z2h",
+    "validator": "tnam1qy5dqyv2ygrk2sm84mj0pdl0ralx5wurwu8xz3qa",
+    "amount": "46600",
+    "signatures": {
+      "tpknam1qqnuu3qm70c056wkzvunfsxrt5jxlh8d57rm7v27q35c9t52a6ycg8f5z2h": "signam1qzjsk8ly97rhh0969nj9x5343n58zsal8gft0mvm7hv4sr5jgsh37a3d4k57mnupct94f7lmr8qnp4c8rs2c4kvfu5pdyflevzeunwqwszdy26"
+    },
+    "filename": "cosmowiz-bond.toml"
+  },
+  {
     "source": "tpknam1qr8ppul2enz4g3w5tg7nr6kp4ngu33468pxj3e4xgzx2l8ru5y86x6w6r4c",
     "validator": "tnam1q9sdarpylwxd5vv3e8u6wstrpz052jhls5g4a3wg",
     "amount": "34000",
@@ -72133,6 +72142,15 @@
       "tpknam1qpr9k2cus3suzqa0vfy5xasd96ayerk33rryn8qw5mtt2n6fw05a7997t90": "signam1qp72pwf0smwyv4ty6jmlcshpacyn7r7d57ha350snjl269shrzpc4j3n2qqmmht602nwn5sdr095tu3nqr7e4z78rka3y8kx6pagcmsvk4zgc3"
     },
     "filename": "spidey-169-bond.toml"
+  },
+  {
+    "source": "tpknam1qp7hkpzk483mt3x23gzc8leslzulwsq452g59fscxseua6jrax02vxggy6h",
+    "validator": "tnam1qydvhqdu2q2vrgvju2ngpt6yhrehu525pus6m28p",
+    "amount": "43.48",
+    "signatures": {
+      "tpknam1qp7hkpzk483mt3x23gzc8leslzulwsq452g59fscxseua6jrax02vxggy6h": "signam1qzh9dwn2ym6f9vkhamglmxuu0cvxv9phz48j3h833ewehtcurdxrafmraxm62pd7wuszu8f02rwz4zd3g60lsvusf0kj9k68vukpapqz9aysnr"
+    },
+    "filename": "sprintaway-bond.toml"
   },
   {
     "source": "tpknam1qz8fdjwa0pqv5t7daq2ffevlxs6gkdu3ll6cv7hnwdg0de426pmnz2eqy0k",
