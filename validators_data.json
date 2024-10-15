@@ -2380,6 +2380,20 @@
     "discord_handle": "julvinn"
   },
   {
+    "address": "tnam1q9d42duqyl2flcvcg42urx4d7hsjd6dnxs8z00ve",
+    "alias": "timagixe",
+    "commission": "5.0",
+    "max_commission_rate_change": "1.0",
+    "total_bond": 1000,
+    "total_voting_power": 0,
+    "percentage_of_total_supply": "0.0",
+    "email": "timagixe@protonmail.com",
+    "discord": "timagixe",
+    "website": "https://tmgx.xyz/",
+    "total_delegations": "1",
+    "discord_handle": "timagixe"
+  },
+  {
     "address": "tnam1q82fsvmdkjfm7awr04xa0rkn27edztd9fypma6ha",
     "alias": "n1stake",
     "commission": "5.0",
@@ -2770,20 +2784,6 @@
     "website": "Unknown website",
     "total_delegations": "0",
     "discord_handle": null
-  },
-  {
-    "address": "tnam1q9d42duqyl2flcvcg42urx4d7hsjd6dnxs8z00ve",
-    "alias": "timagixe",
-    "commission": "5.0",
-    "max_commission_rate_change": "1.0",
-    "total_bond": 0,
-    "total_voting_power": 0,
-    "percentage_of_total_supply": "0.0",
-    "email": "timagixe@protonmail.com",
-    "discord": "timagixe",
-    "website": "https://tmgx.xyz/",
-    "total_delegations": "0",
-    "discord_handle": "timagixe"
   },
   {
     "address": "tnam1q8m8m40w44z9nlstzh37wxssdqd44mq4xypv05e2",
