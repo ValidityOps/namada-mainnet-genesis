@@ -64,7 +64,7 @@ jobs:
   merge-check:
     runs-on: ubuntu-latest
     name: Deep merge check 
-    if: ${{ github.event_name == 'merge_group' | 'workflow_dispatch' }}
+    if: ${{ github.event_name == 'merge_group' || github.event_name == 'workflow_dispatch' }}
 
     steps:
       - uses: actions/checkout@v4
@@ -163,7 +163,7 @@ jobs:
   can_merge:
     needs: [pr-check, merge-check]
     name: Can merge
-    if: always() && github.event_name == 'merge_group' | 'workflow_dispatch'
+    if: always() && github.event_name == 'merge_group' || github.event_name == 'workflow_dispatch'
     permissions:
       contents: read
       pages: write
