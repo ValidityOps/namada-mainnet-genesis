@@ -1,6 +1,7 @@
 name: Check Pre Genesis Transactions 👨‍🔧
 
 on:
+  workflow_dispatch:
   merge_group:
   pull_request:
     branches:
@@ -63,7 +64,7 @@ jobs:
   merge-check:
     runs-on: ubuntu-latest
     name: Deep merge check 
-    if: ${{ github.event_name == 'merge_group' }}
+    if: ${{ github.event_name == 'merge_group' | 'workflow_dispatch' }}
 
     steps:
       - uses: actions/checkout@v4
@@ -162,7 +163,7 @@ jobs:
   can_merge:
     needs: [pr-check, merge-check]
     name: Can merge
-    if: always() && github.event_name == 'merge_group'
+    if: always() && github.event_name == 'merge_group' | 'workflow_dispatch'
     permissions:
       contents: read
       pages: write
