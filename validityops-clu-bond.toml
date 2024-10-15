@@ -1,8 +1,0 @@
-[[bond]]
-source = "tpknam1qpshppnclu7cs4g25wv99gjyzu7ng4rmwrrc686xawa2emp657arcfupn8v"
-validator = "tnam1qydvhqdu2q2vrgvju2ngpt6yhrehu525pus6m28p"
-amount = "78"
-
-[bond.signatures]
-tpknam1qpshppnclu7cs4g25wv99gjyzu7ng4rmwrrc686xawa2emp657arcfupn8v = "signam1qrmtv7zj9qzajcehuhkpmhpgy3ayttxd22jz93x9h7x433k6f76pj94hqwnkwm7y645dmruzhdr9k7ymqsde234x7cdgeaggzuhnfuc9z5970q"
-
