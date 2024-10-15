@@ -71460,6 +71460,15 @@
     "filename": "m15crypto-bond.toml"
   },
   {
+    "source": "tpknam1qrfdawuufjn07vdq2exy6h5djfsel8254452avz6auxdw9y7r3kpcdz7zcz",
+    "validator": "tnam1q8a2xwh072herrmlgf06gvrhna775sqjuufnxydn",
+    "amount": "49000",
+    "signatures": {
+      "tpknam1qrfdawuufjn07vdq2exy6h5djfsel8254452avz6auxdw9y7r3kpcdz7zcz": "signam1qp6kh2xpl39wakg0sr4y5f2nqy9sn8k5j2vqzxgfdnw3s8ukzuxv05s7r7eehsyrhseqq55lq6hdw8nn9cclytd9q99cfyl77dr5t5grl0plvf"
+    },
+    "filename": "manueldalb2-bond.toml"
+  },
+  {
     "source": "tpknam1qqt0t6qsgl6t57qfc7y5fer0dz2znag3lw723uprkwaaq4jswfkt2j6e2qs",
     "validator": "tnam1q9zvl5nzd2np5mdgfa2lzccaey4xln55ku3mdlws",
     "amount": "3100",
