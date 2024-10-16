@@ -60,13 +60,13 @@
     "alias": "TuDudes",
     "commission": "5.0",
     "max_commission_rate_change": "1.0",
-    "total_bond": 1180936.611,
+    "total_bond": 1180967.611,
     "total_voting_power": 3.3,
     "percentage_of_total_supply": "0.12",
     "email": "node-alerts@tududes.com",
     "discord": "sirouk",
     "website": "https://tududes.com",
-    "total_delegations": "12",
+    "total_delegations": "13",
     "discord_handle": "sirouk"
   },
   {
@@ -74,13 +74,13 @@
     "alias": "ValidityOps",
     "commission": "5.0",
     "max_commission_rate_change": "1.0",
-    "total_bond": 1002043.66,
+    "total_bond": 1002285.66,
     "total_voting_power": 2.8,
     "percentage_of_total_supply": "0.1",
     "email": "operations@validityops.com",
     "discord": "Unknown discord handle",
     "website": "validityops.com",
-    "total_delegations": "13",
+    "total_delegations": "14",
     "discord_handle": null
   },
   {
@@ -173,7 +173,7 @@
     "commission": "5.0",
     "max_commission_rate_change": "1.0",
     "total_bond": 724968,
-    "total_voting_power": 2.03,
+    "total_voting_power": 2.02,
     "percentage_of_total_supply": "0.07",
     "email": "winlin@kelepool.com",
     "discord": "klearth",
@@ -257,7 +257,7 @@
     "commission": "10.0",
     "max_commission_rate_change": "1.0",
     "total_bond": 553119,
-    "total_voting_power": 1.55,
+    "total_voting_power": 1.54,
     "percentage_of_total_supply": "0.06",
     "email": "operations@consensus.finoa.io",
     "discord": "finoaconsensusservices",
@@ -452,13 +452,13 @@
     "alias": "Stakecito",
     "commission": "5.0",
     "max_commission_rate_change": "2.0",
-    "total_bond": 338901.92,
+    "total_bond": 339001.92,
     "total_voting_power": 0.95,
     "percentage_of_total_supply": "0.03",
     "email": "security@stakecito.de",
     "discord": "Unknown discord handle",
     "website": "https://www.stakecito.com",
-    "total_delegations": "714",
+    "total_delegations": "715",
     "discord_handle": null
   },
   {
@@ -1778,6 +1778,20 @@
     "discord_handle": "sy.lai"
   },
   {
+    "address": "tnam1q9pnpud5ha22twh44y333rcadlx34xflysvhqtw8",
+    "alias": "0Y",
+    "commission": "5.0",
+    "max_commission_rate_change": "1.0",
+    "total_bond": 6969,
+    "total_voting_power": 0.02,
+    "percentage_of_total_supply": "0.0",
+    "email": "in0Ywetrust@gmail.com",
+    "discord": "cyberomanov",
+    "website": "0y.io",
+    "total_delegations": "2",
+    "discord_handle": "cyberomanov"
+  },
+  {
     "address": "tnam1qyswpl4wvk4zq45axze9mdghqr9n9ls9yvm9t66c",
     "alias": "MurphyNode",
     "commission": "5.0",
@@ -1860,20 +1874,6 @@
     "website": "https://services.cryptech.com.ua",
     "total_delegations": "2",
     "discord_handle": "romashkin_cryptech"
-  },
-  {
-    "address": "tnam1q9pnpud5ha22twh44y333rcadlx34xflysvhqtw8",
-    "alias": "0Y",
-    "commission": "5.0",
-    "max_commission_rate_change": "1.0",
-    "total_bond": 6400,
-    "total_voting_power": 0.02,
-    "percentage_of_total_supply": "0.0",
-    "email": "in0Ywetrust@gmail.com",
-    "discord": "cyberomanov",
-    "website": "0y.io",
-    "total_delegations": "1",
-    "discord_handle": "cyberomanov"
   },
   {
     "address": "tnam1qyxp2w0e006nwr3ln9gxcvpnypcx40857ytfgyyt",
