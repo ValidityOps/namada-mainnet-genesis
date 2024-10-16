@@ -72873,6 +72873,42 @@
     "filename": "validityops-clu-bond.toml"
   },
   {
+    "source": "tpknam1qrtzgqe2xsvuhajz3tc7q3d2hpwc2u6gnqyhtauv9w6epxu8su86vdnkhtw",
+    "validator": "tnam1q9pnpud5ha22twh44y333rcadlx34xflysvhqtw8",
+    "amount": "569",
+    "signatures": {
+      "tpknam1qrtzgqe2xsvuhajz3tc7q3d2hpwc2u6gnqyhtauv9w6epxu8su86vdnkhtw": "signam1qr3ugzv2dx6qrzdtzq5t25v8sew4vqjpktjgqmrtrqg7m6anj2spqegd2ec866w8c5esvqckld6hnce2ht9tnqqqmmdl5zspy2u0plqp857tug"
+    },
+    "filename": "validityops-clu-bond.toml"
+  },
+  {
+    "source": "tpknam1qp7vwngmtzgckfzdzvd52sf7excmq0knycnl9gn4ztswjqmvtvlv2wgtkc6",
+    "validator": "tnam1q9pt4hukg0ga362jq2slhg4tuf692zqqngzzz54k",
+    "amount": "100",
+    "signatures": {
+      "tpknam1qp7vwngmtzgckfzdzvd52sf7excmq0knycnl9gn4ztswjqmvtvlv2wgtkc6": "signam1qqgycx28dlug8wv6d3hvvn8jt9wd3gvptsrfd0208fv5r5s3q2n3x00353quksknfq5v8elspruhzk2qcswu0wfmdzw60c9ayv8n39sdk8c49f"
+    },
+    "filename": "validityops-clu-bond.toml"
+  },
+  {
+    "source": "tpknam1qq4urg4q5vxz6gpgjs6y448m3q4sr9yvjn5mumwhgsaa88uyq7yyx44dlsw",
+    "validator": "tnam1q8lhvxys53dlc8wzlg7dyqf9avd0vff6wvav4amt",
+    "amount": "242",
+    "signatures": {
+      "tpknam1qq4urg4q5vxz6gpgjs6y448m3q4sr9yvjn5mumwhgsaa88uyq7yyx44dlsw": "signam1qqlaxpkfdua2sw3a6vf0yh0k6mq7y9tnmvwnt2dhetp6keml6fcmdra48u2j6nevvkhjuexm9srgtqphgcfmn9ggruz0deq3ghand0cw9tq8h4"
+    },
+    "filename": "validityops-clu-bond.toml"
+  },
+  {
+    "source": "tpknam1qp43l6njhmfjdp7fhacfnyk4rsg8ew8lnz5g428ahnp22rkxqwpqwjgjkt0",
+    "validator": "tnam1qya90eeuaxn47ajfjp08f8zzgjtmhy0lmyxn26gu",
+    "amount": "31",
+    "signatures": {
+      "tpknam1qp43l6njhmfjdp7fhacfnyk4rsg8ew8lnz5g428ahnp22rkxqwpqwjgjkt0": "signam1qpxccj70xfmh6klg7lkg7qwyvayyhwyvtc4z99tam2dd357ewmkmc5uhrldz3chrvazety6zkl6nw8xdsvqph4ga53mlkrhcaqrnt5swx4zesd"
+    },
+    "filename": "validityops-clu-bond.toml"
+  },
+  {
     "source": "tpknam1qrp5xljxzc3273w3scf7549jymy5nqd7lu9x83uc3smsz5jj9detx0kqzfw",
     "validator": "tnam1qxsx2ezu89gx252kwwluqp7hadyp285tkczhaqg0",
     "amount": "599000",
