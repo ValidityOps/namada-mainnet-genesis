@@ -540,6 +540,15 @@
     "filename": "cakdemir-bond.toml"
   },
   {
+    "source": "tpknam1qrwf99mx4nk8tl0mnea4lsqgs0jgflqa2tptpd3g7w83cus252a4kw2z8vm",
+    "validator": "tnam1qygyng6guhgj7jy4cfe2pxmsle6sakcvqv3cnlg6",
+    "amount": "65665",
+    "signatures": {
+      "tpknam1qrwf99mx4nk8tl0mnea4lsqgs0jgflqa2tptpd3g7w83cus252a4kw2z8vm": "signam1qq2uan8yk5crvrzjfq8yjalllatvzw9at5zmj7cjews8x78pec0f2404nhng3tyjxhpp03d7u625ajtpmafl45d57eqr66uczvdslzc9yvf4hk"
+    },
+    "filename": "carameleon-bond.toml"
+  },
+  {
     "source": "tpknam1qzwuvljamxzah6apmdpsmrplzfd2dwqqm8fl7wqh4l5vcnd9xgu4x976m3z",
     "validator": "tnam1qygyng6guhgj7jy4cfe2pxmsle6sakcvqv3cnlg6",
     "amount": "100",
@@ -71712,6 +71721,15 @@
     "filename": "mohammedpatla-bond.toml"
   },
   {
+    "source": "tpknam1qrqj4857xdpzgv2msxlty8udrs73n8g8he8c6ytv68ujlfwe55zh5slwmyx",
+    "validator": "tnam1qyx2vmne6th0nfk9lnwdz3mpwzslsaj5xc0x8ucu",
+    "amount": "555555",
+    "signatures": {
+      "tpknam1qrqj4857xdpzgv2msxlty8udrs73n8g8he8c6ytv68ujlfwe55zh5slwmyx": "signam1qpqp6tygm7yl06476k5npqw6dx33ljh5qfatxjpzlhk89y7h06adclhv6qrllwnkfxf0m9k5axcrmax7zq7as50twz07paec8q9j6wsv0k209t"
+    },
+    "filename": "monleru-bond.toml"
+  },
+  {
     "source": "tpknam1qpnwyyn2d6htzcye9uwe7ulmulpk0kd7fa8gzjmdvq2vgaumxdkcsy5pk4p",
     "validator": "tnam1qxepvwg3c24kv0ltlkaasxscy3fsk89h8vrwzgd7",
     "amount": "106.88",
@@ -72412,6 +72430,15 @@
       "tpknam1qz2az757q5eex4pfxuusvx2luulgv5phy943mmmtpxyl7hca4w4e7hn4stu": "signam1qq4ncqhcjurqp2murgnm5203qetgdy5jvcg7hsplsere0jxpatergyjshwkjrjxx6atm76lmav4fkz8xd49cf09397akl3en0fqf2ccr3qe8uk"
     },
     "filename": "tevfikefeaydin-bond.toml"
+  },
+  {
+    "source": "tpknam1qzkxslwew8d9kr2d0k7h5y2nzuq0ac86hugvhr7cgad688mf5xr626xxu4c",
+    "validator": "tnam1qyx2vmne6th0nfk9lnwdz3mpwzslsaj5xc0x8ucu",
+    "amount": "1050000",
+    "signatures": {
+      "tpknam1qzkxslwew8d9kr2d0k7h5y2nzuq0ac86hugvhr7cgad688mf5xr626xxu4c": "signam1qrrnq3wemme0n3kjcxs7dwc4tkfm0vaa9gr6sejyatyn2rfy9hhdn8r6rru46ggp8w0zsadmqjpnadye0cq7gu992yz36amxk6cyjagr5nqavp"
+    },
+    "filename": "the-laziest-bond.toml"
   },
   {
     "source": "tpknam1qqfm09khfl0jn5mvawf9jqcgr7wtt7zln37pwc4ydkuv30mfjrfmc94wsnx",
