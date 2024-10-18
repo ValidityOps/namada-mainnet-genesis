@@ -396,15 +396,6 @@
     "filename": "an0drei-bond.toml"
   },
   {
-    "source": "tpknam1qqhw7lpd3gejy3sgkjk7cwrjd3g8ynmz3g50s0jp9fut84csff7sqk80vcn",
-    "validator": "tnam1q8azt2cpqmc6tr2gvg5v62e4jr0t9327yupaf595",
-    "amount": "3000",
-    "signatures": {
-      "tpknam1qqhw7lpd3gejy3sgkjk7cwrjd3g8ynmz3g50s0jp9fut84csff7sqk80vcn": "signam1qrxmadtgck9e2y5u67qu8qcyjfnnatnzx5mf8ekzgc2hycjru5fu32m96e5a7qxv4gem06xdxhlglv7jvddrysj3tdj5h43qz8fyp9cy5z83dv"
-    },
-    "filename": "antropocosmist-bond.toml"
-  },
-  {
     "source": "tpknam1qp9z3ta8wswc2cvwjga62rvtcjtfrswplcvl5ppmdlrlxy0dkw33unspf0d",
     "validator": "tnam1qydvhqdu2q2vrgvju2ngpt6yhrehu525pus6m28p",
     "amount": "120",
@@ -78991,6 +78982,15 @@
       "tpknam1qpeh2v6cg8t7hre03xpjfc8q5uxfcm0fud2z976a4hpf08t85dnr5a4jwfc": "signam1qzf9p0mctg5nfvaalzy2xsug99nu68zv94qzelx57an00449sd3jh6ldhnkftxt4muulqwuygkku3fhw49vgfls8jtf9c5l8pgm23hcyedwjhk"
     },
     "filename": "msobh13-bond.toml"
+  },
+  {
+    "source": "tpknam1qp068w3gvny5f0guef5qt9engeqsqw9uqum4r882sdegzk0w6829v8st8zr",
+    "validator": "tnam1q9pnpud5ha22twh44y333rcadlx34xflysvhqtw8",
+    "amount": "110",
+    "signatures": {
+      "tpknam1qp068w3gvny5f0guef5qt9engeqsqw9uqum4r882sdegzk0w6829v8st8zr": "signam1qrpwvep9k7c88ja4wvslcaewv6n6awr6w95nlpr3t84ds60gwahdnwwu6tqjy0j7ulrjfmpkktgl5llmtc2ufnnum2qnggfu7rq4mxq06w2ycu"
+    },
+    "filename": "nikolas07-master-bond.toml"
   },
   {
     "source": "tpknam1qqjwtxp9t0a4suxtsq0uyezdacn7auhxdas6np862rxdman33a0usghdn7x",
