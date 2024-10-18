@@ -4,8 +4,8 @@
     "alias": "Mandragora",
     "commission": "5.0",
     "max_commission_rate_change": "1.0",
-    "total_bond": 3455475.96,
-    "total_voting_power": 9.23,
+    "total_bond": 3459475.96,
+    "total_voting_power": 9.24,
     "percentage_of_total_supply": "0.35",
     "email": "support@mandragora.io",
     "discord": "danielmandragora",
@@ -1932,6 +1932,20 @@
     "discord_handle": "afyethh"
   },
   {
+    "address": "tnam1qxxp8yu7ceh7hymkclutkqwhlgcydqzjryflmx32",
+    "alias": "max-02",
+    "commission": "5.0",
+    "max_commission_rate_change": "1.0",
+    "total_bond": 5000,
+    "total_voting_power": 0.01,
+    "percentage_of_total_supply": "0.0",
+    "email": "max0476@protonmail.com",
+    "discord": "power542",
+    "website": "Unknown website",
+    "total_delegations": "1",
+    "discord_handle": "power542"
+  },
+  {
     "address": "tnam1q9fxma4kqfrgn8ul4fdaexgavlhug746wcvra4f8",
     "alias": "Synergy Nodes",
     "commission": "5.0",
@@ -2000,20 +2014,6 @@
     "website": "https://www.5elementsnodes.com",
     "total_delegations": "2",
     "discord_handle": "5elementsnodes"
-  },
-  {
-    "address": "tnam1qxxp8yu7ceh7hymkclutkqwhlgcydqzjryflmx32",
-    "alias": "max-02",
-    "commission": "5.0",
-    "max_commission_rate_change": "1.0",
-    "total_bond": 4000,
-    "total_voting_power": 0.01,
-    "percentage_of_total_supply": "0.0",
-    "email": "max0476@protonmail.com",
-    "discord": "power542",
-    "website": "Unknown website",
-    "total_delegations": "1",
-    "discord_handle": "power542"
   },
   {
     "address": "tnam1q88jgxj5qhmcwxgn9frngrd30207awvdjgkwn674",
