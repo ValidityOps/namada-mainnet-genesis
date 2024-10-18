@@ -4,13 +4,13 @@
     "alias": "Mandragora",
     "commission": "5.0",
     "max_commission_rate_change": "1.0",
-    "total_bond": 3465529.96,
-    "total_voting_power": 9.11,
+    "total_bond": 3470529.96,
+    "total_voting_power": 9.12,
     "percentage_of_total_supply": "0.35",
     "email": "support@mandragora.io",
     "discord": "danielmandragora",
     "website": "Unknown website",
-    "total_delegations": "68",
+    "total_delegations": "69",
     "discord_handle": "danielmandragora"
   },
   {
@@ -173,7 +173,7 @@
     "commission": "5.0",
     "max_commission_rate_change": "1.0",
     "total_bond": 724968,
-    "total_voting_power": 1.91,
+    "total_voting_power": 1.9,
     "percentage_of_total_supply": "0.07",
     "email": "winlin@kelepool.com",
     "discord": "klearth",
@@ -200,13 +200,13 @@
     "alias": "anodeofzen",
     "commission": "5.0",
     "max_commission_rate_change": "1.0",
-    "total_bond": 673607,
-    "total_voting_power": 1.77,
+    "total_bond": 678607,
+    "total_voting_power": 1.78,
     "percentage_of_total_supply": "0.07",
     "email": "zenodeapp@gmail.com",
     "discord": "keymasterzen",
     "website": "https://zenode.app",
-    "total_delegations": "20",
+    "total_delegations": "21",
     "discord_handle": "keymasterzen"
   },
   {
@@ -350,6 +350,20 @@
     "discord_handle": "hades99.hooked"
   },
   {
+    "address": "tnam1qygycq5aejv4aypdppldrar2jnplmyt8ussdvjyr",
+    "alias": "LiveRaveN",
+    "commission": "5.0",
+    "max_commission_rate_change": "1.0",
+    "total_bond": 405100,
+    "total_voting_power": 1.06,
+    "percentage_of_total_supply": "0.04",
+    "email": "liver23@protonmail.com",
+    "discord": "liver23",
+    "website": "https://services.liveraven.net",
+    "total_delegations": "6",
+    "discord_handle": "liver23"
+  },
+  {
     "address": "tnam1qx7apjd6puv09zenlgcjg5q9l74y6ax4sqvyhp6y",
     "alias": "Luganodes",
     "commission": "10.0",
@@ -376,20 +390,6 @@
     "website": "https://ping.pub",
     "total_delegations": "8",
     "discord_handle": null
-  },
-  {
-    "address": "tnam1qygycq5aejv4aypdppldrar2jnplmyt8ussdvjyr",
-    "alias": "LiveRaveN",
-    "commission": "5.0",
-    "max_commission_rate_change": "1.0",
-    "total_bond": 400100,
-    "total_voting_power": 1.05,
-    "percentage_of_total_supply": "0.04",
-    "email": "liver23@protonmail.com",
-    "discord": "liver23",
-    "website": "https://services.liveraven.net",
-    "total_delegations": "5",
-    "discord_handle": "liver23"
   },
   {
     "address": "tnam1q9pt4hukg0ga362jq2slhg4tuf692zqqngzzz54k",
@@ -1083,7 +1083,7 @@
     "commission": "5.0",
     "max_commission_rate_change": "1.0",
     "total_bond": 66600,
-    "total_voting_power": 0.18,
+    "total_voting_power": 0.17,
     "percentage_of_total_supply": "0.01",
     "email": "contact@dteam.tech",
     "discord": "doodleoo",
