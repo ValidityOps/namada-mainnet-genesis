@@ -2702,6 +2702,20 @@
     "discord_handle": null
   },
   {
+    "address": "tnam1q8gzlxud46wtxmsn2e3hh3xgrnnjmu9fuq7yjhdz",
+    "alias": "BigBro",
+    "commission": "5.0",
+    "max_commission_rate_change": "1.0",
+    "total_bond": 105,
+    "total_voting_power": 0,
+    "percentage_of_total_supply": "0.0",
+    "email": "flbigbro@gmail.com",
+    "discord": "michaelbigbro",
+    "website": "Unknown website",
+    "total_delegations": "1",
+    "discord_handle": null
+  },
+  {
     "address": "tnam1q9446mq8ack40w965p7ry6p84fv3kyewxqhknhd0",
     "alias": "VirtualReality",
     "commission": "5.0",
