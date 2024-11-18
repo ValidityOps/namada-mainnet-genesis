@@ -810,15 +810,6 @@
     "filename": "croutondigital-bond.toml"
   },
   {
-    "source": "tpknam1qqh9gu556m47vny2h58gfr0zardjl68j57dy4caw6mr9nkvgjes0uuwgz9m",
-    "validator": "tnam1q92xh4k7acxegvlgm3nfgg584f3hx0xalgxyjrh8",
-    "amount": "30000",
-    "signatures": {
-      "tpknam1qqh9gu556m47vny2h58gfr0zardjl68j57dy4caw6mr9nkvgjes0uuwgz9m": "signam1qpz307a0ygd0xtssa7k63j988x09ksj0t2q8lchesy890qm5uxm9gfyhxex46zw0vttmsaz6nwx7g0gfaecg6k98r3zpepyml8hjc3gypkrcut"
-    },
-    "filename": "cryptobtcbuyer-bond.toml"
-  },
-  {
     "source": "tpknam1qrxwmcwf44y4krv5srtf4uyg08xd8ukmrka467shkqvj2hutpsn05vvxtfz",
     "validator": "tnam1q9pt4hukg0ga362jq2slhg4tuf692zqqngzzz54k",
     "amount": "10",
